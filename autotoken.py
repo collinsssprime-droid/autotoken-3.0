@@ -76,7 +76,7 @@ def fmt_html(text: str) -> str:
 
 
 # Укажите токен через переменную окружения BOT_TOKEN.
-BOT_TOKEN = "9094860695:AAE-nPl9sA4289D8q-hYQtP3femDKkUyYyw"
+BOT_TOKEN = "TOKEN"
 if not BOT_TOKEN:
     raise RuntimeError(
         "Не задан BOT_TOKEN. Установите токен бота в переменной окружения."
